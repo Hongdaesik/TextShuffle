@@ -1,6 +1,6 @@
 {
   "name": "text-shuffle",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "peerDependencies": {
     "@angular/common": "^15.2.0",
     "@angular/core": "^15.2.0"
@@ -19,9 +19,12 @@
   "license": "MIT",
   "keywords": [
     "shuffle",
-    "rainbow",
     "angular",
-    "typescript"
+    "typescript",
+    "text effects",
+    "text shuffle",
+    "letter effects",
+    "letter shuffle"
   ],
   "homepage": "https://bettep.org",
   "description": "Text shuffle library produced in Angular language."
