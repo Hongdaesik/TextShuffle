@@ -1,0 +1,34 @@
+<style>
+  section {
+    display: inline-block;
+    position: relative;
+    line-height: 1.0;
+  }
+
+  span,
+  canvas,
+  section {
+    color: #333;
+    font-size: inherit;
+    font-weight: inherit;
+  }
+
+  span {
+    opacity: 0;
+  }
+
+  canvas {
+    top: 50%;
+    left: 0;
+    position: absolute;
+    transform: translateY(-50%);
+  }
+</style>
+
+<section>
+
+  <span></span>
+
+  <canvas (mouseenter)="onEnter()" (mouseleave)="onLeave()"></canvas>
+
+</section>
