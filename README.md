@@ -4,7 +4,7 @@ A library that randomly mixes input strings and outputs them from the front digi
 
 You can check out the demo <a href="https://bettep.org/shuffle">here</a>.
 
-![Excute](https://raw.githubusercontent.com/Hongdaesik/text-shuffle/master/DEMO.gif)
+![Excute](https://raw.githubusercontent.com/Hongdaesik/TextShuffle/master/DEMO.gif)
 
 <br><br>
 
@@ -35,6 +35,8 @@ import { TextShuffleModule } from 'text-shuffle'
 })
 export class MyModule {}
 ```
+
+<br><br>
 
 Then, using your component.
 ```typescript
