@@ -1,9 +1,9 @@
 {
   "name": "text-shuffle",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "peerDependencies": {
-    "@angular/common": "^18.1.2",
-    "@angular/core": "^18.1.2"
+    "@angular/common": "^15.2.0",
+    "@angular/core": "^15.2.0"
   },
   "dependencies": {
     "tslib": "^2.3.0"

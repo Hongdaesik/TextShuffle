@@ -11,7 +11,7 @@ You can check out the demo <a href="https://bettep.org/text-shuffle">here</a>.
 ## Installation
 
 ```bash
-npm install text-shuffle --save
+npm install --save text-shuffle 
 ```
 
 <br><br>
@@ -92,7 +92,7 @@ export class AppComponent {
 ## Change Log
 
 `1.0.0` : Initial release.
-`1.0.3` : Change demo address.
+`1.0.4` : Change demo address.
 
 <br><br>
 
