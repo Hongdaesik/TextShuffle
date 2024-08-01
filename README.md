@@ -93,6 +93,7 @@ export class AppComponent {
 
 `1.0.0` : Initial release.
 `1.0.4` : Change demo address.
+`2.0.0` : Remove package dependency.
 
 <br><br>
 
