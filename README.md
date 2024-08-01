@@ -2,7 +2,7 @@
 
 A library that randomly mixes input strings and outputs them from the front digit.
 
-You can check out the demo <a href="https://bettep.org/shuffle">here</a>.
+You can check out the demo <a href="https://bettep.org/text-shuffle">here</a>.
 
 ![Excute](https://raw.githubusercontent.com/Hongdaesik/TextShuffle/master/DEMO.gif)
 
@@ -20,8 +20,8 @@ npm install text-shuffle --save
 
 Import into your @NgModule.
 ```typescript
-import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { NgModule } from '@angular/core'
+import { FormsModule } from '@angular/forms'
 import { TextShuffleModule } from 'text-shuffle'
 
 @NgModule({
@@ -92,6 +92,7 @@ export class AppComponent {
 ## Change Log
 
 `1.0.0` : Initial release.
+`1.0.1` : Change demo address.
 
 <br><br>
 

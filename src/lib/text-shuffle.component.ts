@@ -79,9 +79,9 @@ export class TextShuffleComponent extends TextShuffleDirective implements OnInit
     this.animation = {}
   }
 
-  ngOnInit() {}
+  ngOnInit(): void {}
 
-  ngOnLoad() {
+  ngOnLoad(): void {
 
     try {
 
@@ -142,7 +142,7 @@ export class TextShuffleComponent extends TextShuffleDirective implements OnInit
     }
   }
 
-  ngOnDestroy() {
+  ngOnDestroy(): void {
 
     clearTimeout( this.animation.change )
 
@@ -154,14 +154,14 @@ export class TextShuffleComponent extends TextShuffleDirective implements OnInit
     }
   }
 
-  ngOnChanges() {
+  ngOnChanges(): void {
 
     if ( this.text == null || this.text == undefined ) return
 
     this.ngOnLoad()
   }
 
-  ngAfterViewChecked() {
+  ngAfterViewChecked(): void {
 
     if ( this.text == null || this.text == undefined ) return
 
@@ -305,7 +305,7 @@ export class TextShuffleComponent extends TextShuffleDirective implements OnInit
   /**
    * Draw text.
    */
-  setText() {
+  setText(): void {
 
     let clone = JSON.parse( JSON.stringify( this.attribute.line ) )
 
@@ -374,7 +374,7 @@ export class TextShuffleComponent extends TextShuffleDirective implements OnInit
   /**
    * Mouse event
    */
-  onEnter() {
+  onEnter(): void {
 
     if ( this.chk.change == false ) return
 
@@ -391,7 +391,7 @@ export class TextShuffleComponent extends TextShuffleDirective implements OnInit
     this.onTimer()
   }
 
-  onLeave() {
+  onLeave(): void {
 
     if ( this.chk.change == false ) return
 
@@ -408,7 +408,7 @@ export class TextShuffleComponent extends TextShuffleDirective implements OnInit
     this.setText()
   }
 
-  onTimer() {
+  onTimer(): void {
 
     this.animation.timeout = setTimeout( ( _: any ) => {
 
@@ -429,7 +429,7 @@ export class TextShuffleComponent extends TextShuffleDirective implements OnInit
     }, this.duration / this.text.length )
   }
 
-  onUpdate() {
+  onUpdate(): void {
 
     this.animation.frame = window.requestAnimationFrame( _ => this.onUpdate() )
 
